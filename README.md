@@ -1,13 +1,8 @@
-# Student Management API
+# API-CALL
 
 ## Author & Course
 Diana Esguerra  
 III - BSIT - B
-
----
-
-## Project Title
-Student Management API
 
 ---
 
