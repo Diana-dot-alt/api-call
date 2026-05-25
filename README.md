@@ -90,3 +90,14 @@ PATCH /students/{id}
 DELETE /students/{id}
 DELETE /students
 ```
+
+## What's Included?
+
+- Laravel 12 [MIT] - A PHP web application framework with expressive and elegant syntax.
+- PHP - A popular general-purpose scripting language especially suited to web development.
+- SQLite / MySQL - Database management system used for storing student records.
+- Eloquent ORM - Laravel’s built-in ORM for database interaction.
+- Postman - API platform used for testing API endpoints and HTTP requests.
+- REST API - Architectural style used for handling CRUD operations through HTTP methods.
+- JSON Responses - Lightweight data-interchange format used for API communication.
+
