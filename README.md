@@ -108,7 +108,7 @@ DELETE /students
 
 ## Screen Recording Demonstration
 
-[Click here to view the screen recording demonstration]
+[Click here to view the screen recording demonstration]<br>
 (https://drive.google.com/drive/folders/1gTHyfo8yNeKP45tiLngoN-e_HFSUorOp?usp=sharing)
 
 ---
