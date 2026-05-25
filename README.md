@@ -31,7 +31,7 @@ This project allows users to manage student records through CRUD operations (Cre
 ### 1. Clone the Repository
 
 ```bash
-git clone <Diana-dot-alt/api-call>
+git clone https://github.com/Diana-dot-alt/api-call.git
 ```
 
 ### 2. Go to Project Directory
