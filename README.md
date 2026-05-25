@@ -1,91 +1,92 @@
 # Student Management API
 
-Student Management API is a simple RESTful API built using Laravel.  
-This project is designed to manage student records through CRUD operations using JSON responses.
+## Athour & Course
+Diana Esguerra
+III - BSIT - B
+---
 
-This project is intended for educational purposes only.
+## Project Title
+Student Management API
 
 ---
 
-# Features
+## Project Description
+Student Management API is a simple RESTful API built using Laravel.  
+This project allows users to manage student records through CRUD operations (Create, Read, Update, Delete). It supports JSON responses and API testing using Postman.
 
+Features:
 - Get All Students
 - Get Single Student
 - Add Student
 - Update Student
 - Partial Update Student
-- Delete Single Student
+- Delete Student
 - Delete All Students
 
 ---
 
-# Technologies Used
+## Setup Instructions
 
-- Laravel 12
-- PHP
-- SQLite / MySQL
-- Postman
-- REST API
-
----
-
-# Installation
-
-## Clone Repository
+### 1. Clone the Repository
 
 ```bash
 git clone <repository-url>
-Go to Project Folder
+```
+
+### 2. Go to Project Directory
+
+```bash
 cd api-call
-Install Dependencies
+```
+
+### 3. Install Dependencies
+
+```bash
 composer install
-Configure Environment
+```
 
-Copy .env.example to .env
+### 4. Configure Environment
 
+Copy `.env.example` file to `.env`
+
+```bash
 cp .env.example .env
-Generate Application Key
+```
+
+### 5. Generate Application Key
+
+```bash
 php artisan key:generate
-Run Migration
+```
+
+### 6. Run Database Migration
+
+```bash
 php artisan migrate:fresh
-Start Server
+```
+
+### 7. Start Laravel Server
+
+```bash
 php artisan serve
-Base URL
+```
+
+### 8. Test API in Postman
+
+Base URL:
+
+```txt
 http://127.0.0.1:8000/api
-API Endpoints
-GET All Students
+```
+
+Example Endpoints:
+
+```http
 GET /students
-GET Single Student
 GET /students/{id}
-POST Create Student
 POST /students
-Request Body
-{
-  "name": "Diana",
-  "email": "diana@gmail.com",
-  "course": "BSIT"
-}
-PUT Update Student
 PUT /students/{id}
-PATCH Partial Update
 PATCH /students/{id}
-DELETE Single Student
 DELETE /students/{id}
-DELETE All Students
 DELETE /students
-Sample Response
-[
-  {
-    "id": 1,
-    "name": "Diana",
-    "email": "diana@gmail.com",
-    "course": "BSIT"
-  }
-]
-Author
-
-Diana Esguerra
-
-License
-
-This project is for educational purposes only.
+```
