@@ -1,8 +1,9 @@
 # Student Management API
 
-## Athour & Course
-Diana Esguerra
+## Author & Course
+Diana Esguerra  
 III - BSIT - B
+
 ---
 
 ## Project Title
@@ -14,7 +15,7 @@ Student Management API
 Student Management API is a simple RESTful API built using Laravel.  
 This project allows users to manage student records through CRUD operations (Create, Read, Update, Delete). It supports JSON responses and API testing using Postman.
 
-Features:
+### Features
 - Get All Students
 - Get Single Student
 - Add Student
@@ -79,7 +80,7 @@ Base URL:
 http://127.0.0.1:8000/api
 ```
 
-Example Endpoints:
+### Example Endpoints
 
 ```http
 GET /students
@@ -91,6 +92,8 @@ DELETE /students/{id}
 DELETE /students
 ```
 
+---
+
 ## What's Included?
 
 - Laravel 12 [MIT] - A PHP web application framework with expressive and elegant syntax.
@@ -101,3 +104,8 @@ DELETE /students
 - REST API - Architectural style used for handling CRUD operations through HTTP methods.
 - JSON Responses - Lightweight data-interchange format used for API communication.
 
+---
+
+## Note
+
+This project is for educational purposes only.
