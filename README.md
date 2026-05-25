@@ -1,14 +1,14 @@
 # API-CALL
 
-## Author & Course
+## Student Name & Course
 Diana Esguerra  
 III - BSIT - B
 
 ---
 
 ## Project Description
-API- CALL is a simple RESTful API built using Laravel.  
-This project allows users to manage student records through CRUD operations (Create, Read, Update, Delete). It supports JSON responses and API testing using Postman.
+API-CALL is a web-based RESTful API developed using Laravel.  
+The project is designed to perform CRUD (Create, Read, Update, Delete) operations for managing student records efficiently. It uses JSON responses for data communication and supports API testing through Postman.
 
 ### Features
 - Get All Students
@@ -18,6 +18,18 @@ This project allows users to manage student records through CRUD operations (Cre
 - Partial Update Student
 - Delete Student
 - Delete All Students
+
+---
+
+## Technologies Used
+
+- PHP
+- Laravel 12
+- MySQL / SQLite
+- Eloquent ORM
+- REST API
+- Postman
+- JSON
 
 ---
 
@@ -75,29 +87,17 @@ Base URL:
 http://127.0.0.1:8000/api
 ```
 
-### Example Endpoints
+## API Endpoints
 
-```http
-GET /students
-GET /students/{id}
-POST /students
-PUT /students/{id}
-PATCH /students/{id}
-DELETE /students/{id}
-DELETE /students
-```
-
----
-
-## What's Included?
-
-- Laravel 12 - A PHP web application framework with expressive and elegant syntax.
-- PHP - A popular general-purpose scripting language especially suited to web development.
-- SQLite / MySQL - Database management system used for storing student records.
-- Eloquent ORM - Laravel’s built-in ORM for database interaction.
-- Postman - API platform used for testing API endpoints and HTTP requests.
-- REST API - Architectural style used for handling CRUD operations through HTTP methods.
-- JSON Responses - Lightweight data-interchange format used for API communication.
+| Method | Endpoint | Description |
+|--------|-----------|-------------|
+| GET | /api/students | Get all students |
+| POST | /api/students | Create a new student |
+| GET | /api/students/{id} | Get a single student |
+| PUT | /api/students/{id} | Update a student |
+| PATCH | /api/students/{id} | Partially update a student |
+| DELETE | /api/students/{id} | Delete a student |
+| DELETE | /api/students | Delete all students |
 
 ---
 
