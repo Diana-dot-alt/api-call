@@ -31,7 +31,7 @@ This project allows users to manage student records through CRUD operations (Cre
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone <Diana-dot-alt/api-call>
 ```
 
 ### 2. Go to Project Directory
@@ -96,7 +96,7 @@ DELETE /students
 
 ## What's Included?
 
-- Laravel 12 [MIT] - A PHP web application framework with expressive and elegant syntax.
+- Laravel 12 - A PHP web application framework with expressive and elegant syntax.
 - PHP - A popular general-purpose scripting language especially suited to web development.
 - SQLite / MySQL - Database management system used for storing student records.
 - Eloquent ORM - Laravel’s built-in ORM for database interaction.
