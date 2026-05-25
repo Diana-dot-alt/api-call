@@ -7,7 +7,7 @@ III - BSIT - B
 ---
 
 ## Project Description
-Student Management API is a simple RESTful API built using Laravel.  
+API- CALL is a simple RESTful API built using Laravel.  
 This project allows users to manage student records through CRUD operations (Create, Read, Update, Delete). It supports JSON responses and API testing using Postman.
 
 ### Features
